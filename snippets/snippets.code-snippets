@@ -1,0 +1,114 @@
+{
+  "Flex Layout Row": {
+    "scope": "jsonc",
+    "prefix": "vfr",
+    "body": [
+      "\"flex-layout.row#$1\": {",
+      "\"props\": {",
+      "\"blockClass\": \"$2\"",
+      "},",
+      "\"children\": [$3]",
+      "},"
+    ],
+    "description": "Inserts a flex row."
+  },
+  "Flex Layout Column": {
+    "scope": "jsonc",
+    "prefix": "vfc",
+    "body": [
+      "\"flex-layout.col#$1\": {",
+      "\"props\": {",
+      "\"blockClass\": \"$2\"",
+      "},",
+      "\"children\": [$3]",
+      "},"
+    ],
+    "description": "Inserts a flex column."
+  },
+  "Rich Text": {
+    "scope": "jsonc",
+    "prefix": "vrt",
+    "body": [
+      "\"rich-text#$1\": {",
+      "\"props\": {",
+      "\"text\": \"$2\",",
+      "\"font\": \"t-body\",",
+      "\"textColor\": \"c-on-base\",",
+      "\"textPosition\": \"CENTER\",",
+      "\"textAlignment\": \"CENTER\",",
+      "\"blockClass\": \"$3\"",
+      "}",
+      "},"
+    ],
+    "description": "Inserts a rich text"
+  },
+  "Image": {
+    "scope": "jsonc",
+    "prefix": "vimg",
+    "body": [
+      "\"image#$1\": {",
+      "\"props\": {",
+      "\"src\": \"$2\",",
+      "\"maxHeight\": \"$3\",",
+      "\"blockClass\": \"$4\"",
+      "}",
+      "},"
+    ],
+    "description": "Inserts an image block"
+  },
+  "Slider Layout": {
+    "scope": "jsonc",
+    "prefix": "vsld",
+    "body": [
+      "\"slider-layout#$1\": {",
+      "\"props\": {",
+      "\"itemsPerPage\": \"$2\",",
+      "\"infinite\": true,",
+      "\"showNavigationArrows\": \"desktopOnly\",",
+      "\"autoplay\": {",
+      "\"stopOnHover\": \"true\"",
+      "},",
+      "\"blockClass\": \"$3\"",
+      "},",
+      "\"children\": [$4]",
+      "},"
+    ],
+    "description": "Inserts a slider layout"
+  },
+  "Logo": {
+    "scope": "jsonc",
+    "prefix": "vlogo",
+    "body": [
+      "\"logo#$1\": {",
+      "\"props\": {",
+      "\"url\": \"$2\",",
+      "\"href\": \"$3\",",
+      "\"width\": $4,",
+      "\"height\": $4,",
+      "\"mobileWidth\": $5,",
+      "\"mobileHeight\": $5,",
+      "\"blockClass\": \"$6\"",
+      "}",
+      "},"
+    ],
+    "description": "Inserts a logo block"
+  },
+  "Info Card": {
+    "scope": "jsonc",
+    "prefix": "vic",
+    "body": [
+      "\"info-card#$1\": {",
+      "\"props\": {",
+      "\"id\": \"$2\",",
+      "\"textPosition\": \"center\",",
+      "\"textAlignment\": \"center\",",
+      "\"headline\": \"$4\",",
+      "\"subhead\": \"\",",
+      "\"callToActionText\": \"$5\",",
+      "\"imageUrl\": \"$6\",",
+      "\"blockClass\": \"$7\",",
+      "}",
+      "},"
+    ]
+  }
+}
