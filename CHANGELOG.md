@@ -2,8 +2,12 @@
 
 All notable changes to the "vtex-io-snippets" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.1.1] - 2021-06-21
 
-## [Unreleased]
+- Update Readme
+- Update snippets
+- Add Condition Layout snippet
+
+## [0.1.0]
 
 - Initial release

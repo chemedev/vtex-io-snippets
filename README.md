@@ -1,21 +1,69 @@
-# README
+# README - VTEX IO Snippets
 
-Lorem description
+This is a snippet extension made for those who work with the [VTEX IO Store Framework](https://developers.vtex.com/vtex-developer-docs/docs/overview-5).
 
-## Features
+<br>
 
 ## Requirements
 
-## Extension Settings
+The extension will be activated when working on `.jsonc` files
 
-## Known Issues
+<br>
 
-## Release Notes
+## Current snippets
 
-### 1.0.0
+|   Prefix | Method                        |
+| -------: | ----------------------------- |
+|   `vfr→` | `VTEX Flex Layout Row`        |
+|   `vfc→` | `VTEX Flex Layout Column`     |
+|   `vrt→` | `VTEX Rich Text`              |
+|  `vimg→` | `VTEX Image`                  |
+|  `vsld→` | `VTEX Slider Layout`          |
+| `vlogo→` | `VTEX Logo`                   |
+|   `vic→` | `VTEX Info Card`              |
+|   `vcl→` | `VTEX Condition Layout (2.x)` |
 
-## Working with Markdown
+<br>
 
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-- Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-- Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+## Snippets Description
+
+### `vfr`
+
+```jsonc
+"flex-layout.row#": {
+  "props": {
+    "blockClass": "",
+  },
+  "children": []
+}
+```
+
+### `vfc`
+
+```jsonc
+"flex-layout.col#": {
+  "props": {
+    "blockClass": "",
+  },
+  "children": []
+}
+```
+
+### `vrt`
+
+```jsonc
+"rich-text#": {
+  "props": {
+    "blockClass": "",
+    "font": "t-body",
+    "text": "",
+    "textAlignment": "CENTER",
+    "textColor": "c-on-base",
+    "textPosition": "CENTER"
+  }
+}
+```
+
+<br>
+
+_This section is a WIP..._
