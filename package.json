@@ -4,6 +4,7 @@
   "description": "Code snippets for VTEX IO.",
   "version": "0.1.1",
   "publisher": "jchemello",
+  "icon": "images/logo.png",
   "repository": {
     "url": "https://github.com/me-chell/vtex-io-snippets"
   },

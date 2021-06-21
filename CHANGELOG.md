@@ -8,6 +8,6 @@ All notable changes to the "vtex-io-snippets" extension will be documented in th
 - Update snippets
 - Add Condition Layout snippet
 
-## [0.1.0]
+## [0.1.0] 2021-03-10
 
 - Initial release
