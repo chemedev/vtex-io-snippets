@@ -2,7 +2,7 @@
   "name": "vtex-io-snippets",
   "displayName": "VTEX IO Snippets",
   "description": "Code snippets for VTEX IO.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "jchemello",
   "icon": "images/logo.png",
   "repository": {
